@@ -1,7 +1,5 @@
 # PolicyNav – Public Policy Navigation Using AI
 
-## Infosys Springboard Virtual Internship 6.0 – Batch 13
-
 ---
 
 ## Project Overview
