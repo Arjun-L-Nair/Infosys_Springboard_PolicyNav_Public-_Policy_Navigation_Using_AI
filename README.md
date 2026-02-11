@@ -15,4 +15,3 @@ This repository is part of the **Infosys Springboard Virtual Internship 6.0 (Bat
 ## Author
 
 **Arjun L Nair**
-Infosys Springboard Virtual Internship 6.0 – Batch 13
