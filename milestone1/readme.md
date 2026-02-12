@@ -31,11 +31,11 @@ In this milestone, we developed a secure user authentication system for the Poli
 ---
 ## Screenshots
 (Add your screenshots here)
-Signup Page
-Login Page
-Dashboard
-Forgot Password Page
+- Signup Page
+- Login Page
+- Dashboard
+- Forgot Password Page
 ## Notes
-Passwords are stored in plain text for Milestone-1 demonstration purposes only.
-JWT is used for session management and password reset flow.
-MongoDB Atlas is used as the cloud database.
+- Passwords are stored in plain text for Milestone-1 demonstration purposes only.
+- JWT is used for session management and password reset flow.
+- MongoDB Atlas is used as the cloud database.
