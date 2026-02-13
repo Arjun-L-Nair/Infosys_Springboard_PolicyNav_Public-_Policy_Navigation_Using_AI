@@ -36,7 +36,8 @@ In this milestone, we developed a secure user authentication system for the Poli
   <img width="1918" height="962" alt="image" src="https://github.com/user-attachments/assets/5198d209-2026-4120-b4ec-e6e2d81591ef" />
 ---
 - Login Page
-  <img width="1918" height="970" alt="image" src="https://github.com/user-attachments/assets/c118c976-11b3-422e-a53a-9777b019450f" />
+  <img width="1918" height="965" alt="image" src="https://github.com/user-attachments/assets/1dfde8fd-6bd3-4b9e-9350-b61ba8a306ab" />
+ />
 ---
 - Dashboard
   <img width="1918" height="965" alt="image" src="https://github.com/user-attachments/assets/3ef2a1e6-6e94-4298-9f3b-a23daee02aec" />
