@@ -12,7 +12,8 @@ In this milestone, we developed a secure user authentication system for the Poli
 - Secure Login using JWT  
 - Dashboard after login  
 - Forgot Password functionality  
-- Password Reset using JWT token and security question  
+- Password Reset using JWT token and security question
+- Ngrok Integration
 - MongoDB Atlas database integration  
 
 ---
