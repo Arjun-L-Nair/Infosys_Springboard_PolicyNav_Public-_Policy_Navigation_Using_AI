@@ -30,12 +30,24 @@ In this milestone, we developed a secure user authentication system for the Poli
    ngrok http 8501
 ---
 ## Screenshots
-(Add your screenshots here)
+---
 - Signup Page
+  <img width="1918" height="962" alt="image" src="https://github.com/user-attachments/assets/5198d209-2026-4120-b4ec-e6e2d81591ef" />
+---
 - Login Page
+  <img width="1918" height="970" alt="image" src="https://github.com/user-attachments/assets/c118c976-11b3-422e-a53a-9777b019450f" />
+---
 - Dashboard
+  <img width="1918" height="965" alt="image" src="https://github.com/user-attachments/assets/3ef2a1e6-6e94-4298-9f3b-a23daee02aec" />
+
+---
 - Forgot Password Page
+  <img width="1918" height="963" alt="image" src="https://github.com/user-attachments/assets/4007f52c-79db-4d04-a678-0d7329fa2dfd" />
+---
+- Reset Password Page
+  <img width="1918" height="967" alt="image" src="https://github.com/user-attachments/assets/c0f41b11-0f5f-41b1-b1aa-0c35822de8f1" />
+  <img width="1918" height="965" alt="image" src="https://github.com/user-attachments/assets/acd6a415-7cb7-41e2-aa57-1212d00ee3df" />
+---
 ## Notes
-- Passwords are stored in plain text for Milestone-1 demonstration purposes only.
 - JWT is used for session management and password reset flow.
 - MongoDB Atlas is used as the cloud database.
