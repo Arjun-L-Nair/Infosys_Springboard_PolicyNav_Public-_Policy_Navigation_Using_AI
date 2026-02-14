@@ -1,6 +1,5 @@
 # PolicyNav – Public Policy Navigation Using AI
 
----
 
 ## Project Overview
 
@@ -8,7 +7,7 @@
 
 This repository is part of the **Infosys Springboard Virtual Internship 6.0 (Batch 13)**
 
----
+
 
 ## Author
 
