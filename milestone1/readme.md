@@ -15,8 +15,6 @@ In this milestone, we developed a secure user authentication system for the Poli
 - Ngrok Integration
 - MongoDB Atlas database integration  
 
-
-
 ## How to Run
 
 1. Install required dependencies  
@@ -40,13 +38,12 @@ In this milestone, we developed a secure user authentication system for the Poli
 - Dashboard
   <img width="1918" height="965" alt="image" src="https://github.com/user-attachments/assets/3ef2a1e6-6e94-4298-9f3b-a23daee02aec" />
 
-
 - Forgot Password Page
-  <img width="1918" height="963" alt="image" src="https://github.com/user-attachments/assets/4007f52c-79db-4d04-a678-0d7329fa2dfd" />
+  <img width="1918" height="966" alt="image" src="https://github.com/user-attachments/assets/39b6cc00-fd11-4851-a5df-3db6145c3656" />
+  <img width="1918" height="966" alt="image" src="https://github.com/user-attachments/assets/2c266a68-63d2-48ab-86e9-2286e3863065" />
 
 - Reset Password Page
-  <img width="1918" height="967" alt="image" src="https://github.com/user-attachments/assets/c0f41b11-0f5f-41b1-b1aa-0c35822de8f1" />
-  <img width="1918" height="965" alt="image" src="https://github.com/user-attachments/assets/acd6a415-7cb7-41e2-aa57-1212d00ee3df" />
+<img width="1918" height="967" alt="image" src="https://github.com/user-attachments/assets/cb5466b4-df7e-4752-b9d3-59de9b718a39" />
 
 ## Notes
 - JWT is used for session management and password reset flow.
