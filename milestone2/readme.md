@@ -20,7 +20,7 @@ Integrated otp verification for account login,signup.Added Admin dashboard with 
 
 1. Install required dependencies  
    ```bash
-   pip install streamlit pymongo pyjwt
+   pip install streamlit pyngrok pyjwt watchdog dotenv bcrypt PyPDF2 streamlit-option-menu readability-lxml textstat plotly
 2. Run the Streamlit application
    ```bash
    streamlit run app.py
