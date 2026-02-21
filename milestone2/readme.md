@@ -48,6 +48,9 @@ Integrated otp verification for account login,signup.Added Admin dashboard with 
 
 - Readability Dashboard
   <img width="1918" height="967" alt="image" src="https://github.com/user-attachments/assets/6adfee42-9fe4-4c66-8dd6-eebd67334fac" />
+  <img width="1918" height="966" alt="image" src="https://github.com/user-attachments/assets/11236aa6-b95d-41a5-b629-f23f8602098b" />
+  <img width="1918" height="962" alt="image" src="https://github.com/user-attachments/assets/1f1c71a7-9cd9-42db-b400-fb58c4da2a5e" />
+  <img width="1917" height="968" alt="image" src="https://github.com/user-attachments/assets/34ce2ca4-8d6c-49c9-891f-6ca72775b371" />
 
 - Forgot Password Page
   <img width="1918" height="966" alt="image" src="https://github.com/user-attachments/assets/39b6cc00-fd11-4851-a5df-3db6145c3656" />
