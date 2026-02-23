@@ -38,8 +38,8 @@ Integrated otp verification for Forgot password.Added seperate Admin and User in
   <img width="1918" height="967" alt="image" src="https://github.com/user-attachments/assets/837e98d3-2cf8-47d1-a835-37b93a51e0dd" />
   
 - Admin Dashboard
-  <img width="1918" height="967" alt="image" src="https://github.com/user-attachments/assets/896f31b6-52a8-48fe-b2b6-bb51294b1e24" />
-  <img width="1918" height="966" alt="image" src="https://github.com/user-attachments/assets/82c65618-152a-4d53-a3f0-85a560141ec5" />
+  <img width="1918" height="962" alt="image" src="https://github.com/user-attachments/assets/adf4ea34-b5ed-4c32-9eb1-6a43df417049" />
+
 
 - User Dashboard
   <img width="1918" height="963" alt="image" src="https://github.com/user-attachments/assets/330c81fe-c993-4fcd-87e3-3a43117f1832" />
