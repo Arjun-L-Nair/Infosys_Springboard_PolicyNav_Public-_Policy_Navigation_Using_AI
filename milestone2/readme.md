@@ -3,11 +3,12 @@
 ## Description
 
 In this milestone, we developed a secure user authentication system for the PolicyNav application using Streamlit, JWT (JSON Web Tokens), and SQL Lite. The system enables users to create accounts, log in securely, reset forgotten passwords using security questions, and access a protected dashboard after authentication.
-Integrated otp verification for account login,signup.Added Admin dashboard with some privileges and a Readability dashboard.
+Integrated otp verification for Forgot password.Added seperate Admin and User interfaces and a Readability dashboard.
 
 ## Features Implemented
+- All sensitive and personal data added to Colab Secrets
 
-- OTP-based authentication
+- OTP-based authentication for Forgot Password along with Security Question
 
 - Account lock after 3 wrong password attempts (5-minute lock)
 
@@ -36,9 +37,6 @@ Integrated otp verification for account login,signup.Added Admin dashboard with 
 - Login Page
   <img width="1918" height="967" alt="image" src="https://github.com/user-attachments/assets/837e98d3-2cf8-47d1-a835-37b93a51e0dd" />
   
-- OTP Verification Page
-  <img width="1918" height="966" alt="image" src="https://github.com/user-attachments/assets/cce47ae5-bbe5-40a8-92e8-4d27f7c8e2ec" />
-  
 - Admin Dashboard
   <img width="1918" height="967" alt="image" src="https://github.com/user-attachments/assets/896f31b6-52a8-48fe-b2b6-bb51294b1e24" />
   <img width="1918" height="966" alt="image" src="https://github.com/user-attachments/assets/82c65618-152a-4d53-a3f0-85a560141ec5" />
@@ -55,6 +53,13 @@ Integrated otp verification for account login,signup.Added Admin dashboard with 
 - Forgot Password Page
   <img width="1918" height="966" alt="image" src="https://github.com/user-attachments/assets/39b6cc00-fd11-4851-a5df-3db6145c3656" />
   <img width="1918" height="966" alt="image" src="https://github.com/user-attachments/assets/2c266a68-63d2-48ab-86e9-2286e3863065" />
+
+- OTP Verification Page
+  <img width="1918" height="966" alt="image" src="https://github.com/user-attachments/assets/cce47ae5-bbe5-40a8-92e8-4d27f7c8e2ec" />
+
+- OTP Message 
+  <img width="1512" height="767" alt="image" src="https://github.com/user-attachments/assets/feadd571-c893-4085-a1ae-0ee679365119" />
+
 
 - Reset Password Page
 <img width="1918" height="967" alt="image" src="https://github.com/user-attachments/assets/cb5466b4-df7e-4752-b9d3-59de9b718a39" />
