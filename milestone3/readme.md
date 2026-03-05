@@ -126,7 +126,7 @@ Go to **Colab → Secrets** and add:
 Run the **Launch cell** (Cell 11). This starts Streamlit and exposes it via an ngrok public URL printed in the output.
 
 ---
-##Screenshots
+## Screenshots
 ---
 
 ## Supported Languages
