@@ -4,7 +4,6 @@
 
 In this milestone, PolicyNav was extended with an AI-powered Q&A engine, multi-language document summarization, and an interactive knowledge graph — all built on top of the authentication, admin interface, and readability dashboard from Milestone 2. The NLP pipeline uses **Qwen 2.5-1.5B-Instruct** (4-bit quantized via BitsAndBytes) for generation and **NLLB-200** for translation across 8 Indian and international languages. Document retrieval is powered by **FAISS** with multilingual sentence embeddings. The entire system runs on Google Colab with persistent storage on Google Drive.
 
----
 
 ## Features Implemented
 
@@ -56,7 +55,6 @@ In this milestone, PolicyNav was extended with an AI-powered Q&A engine, multi-l
 - Styled form panels, input focus rings, progress bar, tabs, expanders, metrics, and custom scrollbar
 - Chat bubble animation (`msgSlideIn`) and page-load `fadeUp` transitions throughout
 
----
 
 ## Tech Stack
 
@@ -72,7 +70,6 @@ In this milestone, PolicyNav was extended with an AI-powered Q&A engine, multi-l
 | Storage | Google Drive (persistent) + SQLite |
 | Deployment | Google Colab + pyngrok |
 
----
 
 ## Project Structure
 
@@ -90,7 +87,6 @@ PolicyNav/
 └── faiss_meta.pkl          # Chunk metadata for FAISS (Google Drive)
 ```
 
----
 
 ## How to Run
 
@@ -127,32 +123,19 @@ Run the **Launch cell** (Cell 11). This starts Streamlit and exposes it via an n
 
 ---
 ## Screenshots
+
+### Q & A
+
+### Summarization
+
+### Knowledge Graph
+
 ---
 
 ## Supported Languages
 
 English · Hindi · Tamil · Kannada · Telugu · Marathi · Bengali · Malayalam
 
----
-
-## Policy Schemes Covered (Pre-loaded PDFs)
-
-| Scheme | Source |
-|---|---|
-| PM Jan Dhan Yojana (PMJDY) | pmjdy.gov.in |
-| PM Awas Yojana Urban (PMAY-U) | pmay-urban.gov.in |
-| PM Awas Yojana Gramin (PMAY-G) | pmayg.nic.in |
-| PM Fasal Bima Yojana (PMFBY) | pmfby.gov.in |
-| PM KISAN | pmkisan.gov.in |
-| Jal Jeevan Mission | jaljeevanmission.gov.in |
-| National Education Policy (NEP) | education.gov.in |
-| PM Kaushal Vikas Yojana (PMKVY) | msde.gov.in |
-| Digital India | meity.gov.in |
-| Smart Cities Mission | mohua.gov.in |
-| Soil Health Card Scheme | agriwelfare.gov.in |
-| Swachh Bharat Mission (Gramin) | — |
-
----
 
 ## Notes
 
