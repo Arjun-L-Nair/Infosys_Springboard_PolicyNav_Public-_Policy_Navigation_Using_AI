@@ -48,3 +48,6 @@ In this milestone, we developed a secure user authentication system for the Poli
 ## Notes
 - JWT is used for session management and password reset flow.
 - MongoDB Atlas is used as the cloud database.
+
+## Author
+Arjun L Nair
