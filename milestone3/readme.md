@@ -125,8 +125,11 @@ Run the **Launch cell** (Cell 11). This starts Streamlit and exposes it via an n
 ## Screenshots
 
 ### Q & A
+<img width="1918" height="963" alt="image" src="https://github.com/user-attachments/assets/dfecf0d7-a7e1-4735-959f-42e722b45606" />
 
 ### Summarization
+<img width="1918" height="962" alt="image" src="https://github.com/user-attachments/assets/6089dff0-676b-43b6-b395-5c70c85c9b90" />
+<img width="1918" height="967" alt="image" src="https://github.com/user-attachments/assets/c55af22e-79a7-4b7f-8eea-f90baa6066f7" />
 
 ### Knowledge Graph
 
