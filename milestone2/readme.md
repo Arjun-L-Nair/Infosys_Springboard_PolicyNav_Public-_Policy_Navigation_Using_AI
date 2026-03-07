@@ -69,7 +69,7 @@ Integrated otp verification for Forgot password.Added seperate Admin and User in
 - Added Readability Dashboard,Admin Dashboard.
 - Changed the database from MongoDB Atlas to SqLite
 
---- 
+ 
 ## Author
 Arjun L Nair
 
