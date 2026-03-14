@@ -13,7 +13,7 @@ The Admin panel functions as a centralized control room, giving platform adminis
 
 The platform enforces strict Role-Based Access Control (RBAC). Admins can promote standard users to Admin status, granting full dashboard access. Accounts flagged as suspicious can be manually blocked or unlocked at any time. A permanent delete option is also available, and it safely cascades the removal across all relational tables — erasing the user's history, OTP records, and feedback entries so no orphaned data is left behind.
 
-
+![image alt](https://github.com/Arjun-L-Nair/Infosys_Springboard_PolicyNav_Public-_Policy_Navigation_Using_AI/blob/b419bb24e2d816851919ff61b208a33b57f7081f/milestone4/screenshots/user_control.png)
 
 ---
 
@@ -21,7 +21,7 @@ The platform enforces strict Role-Based Access Control (RBAC). Admins can promot
 
 A full-platform auditing module aggregates all user interactions into a single searchable feed. Admins can filter by individual user email to inspect exact AI prompts, generated responses, tool selections, and timestamps. System-level events such as logins and profile changes appear as compact cards, while AI tool interactions expand to show the complete prompt-response pair.
 
-
+![image alt](https://github.com/Arjun-L-Nair/Infosys_Springboard_PolicyNav_Public-_Policy_Navigation_Using_AI/blob/b419bb24e2d816851919ff61b208a33b57f7081f/milestone4/screenshots/system%20analysis.png)
 ---
 
 ### Data Visualization
@@ -31,7 +31,7 @@ Using `pandas` for data aggregation and `plotly.express` for rendering, the Anal
 - **AI Feature Popularity:** A bar chart plots the total usage count of each tool — Policy Assistant, Summarizer, Translator, Knowledge Graph — so admins know exactly where users spend their time.
 - **Regional Language Utilization:** A pie chart breaks down which of the seven supported NLLB languages appeared most in user sessions, quantifying the platform's accessibility impact across different demographics.
 
-
+![image alt](url)
 
 ---
 
@@ -39,7 +39,7 @@ Using `pandas` for data aggregation and `plotly.express` for rendering, the Anal
 
 All user-submitted text comments — from both the general platform rating form and per-AI-tool feedback submissions — are automatically pulled and merged. The `wordcloud` library renders a visual sentiment map over a dark background, letting admins spot recurring themes, popular features, and friction points without manually reading individual rows. The raw feedback records are displayed in full below the cloud, split by feedback type.
 
-
+![image alt](url)
 
 ---
 
@@ -47,7 +47,7 @@ All user-submitted text comments — from both the general platform rating form 
 
 For offline reporting and compliance, three one-click `.csv` download buttons are available. Each button runs a `pandas` SQL query and streams the file directly to the admin's machine — covering the full user directory (with roles and block status), the complete activity log, and the granular AI tool performance dataset.
 
-
+![image alt](url)
 
 ---
 
@@ -60,7 +60,7 @@ Standard users now have a dedicated settings portal split across two tabs: one f
 - **Email Update:** The workflow requires the user to first confirm their current password, then sends a 6-digit OTP to the newly requested address. Only after successful OTP verification is the email swapped — and the update cascades across all relational tables so no history or feedback record is orphaned. The user is automatically logged out to force a clean re-authentication.
 - **Password Change:** Requires the current password as verification. A live inline validator checks four criteria as the user types — minimum length, uppercase presence, numeric character, and special character — using colour-coded indicators. Once the new password is saved, the session is wiped and the user is redirected to the login screen.
 
-
+![image alt](url)
 
 ---
 
@@ -68,7 +68,7 @@ Standard users now have a dedicated settings portal split across two tabs: one f
 
 Users can upload a custom profile photo (PNG or JPG, capped at 5MB) without needing any external cloud storage integration. The image is read as bytes, encoded into a Base64 string, and stored directly in the SQLite `users` table. On the next render, the string is decoded and injected into the sidebar as a circular `<img>` element, instantly replacing the default placeholder. The 5MB cap is enforced on the backend before encoding begins.
 
-
+![image alt](url)
 
 ---
 
