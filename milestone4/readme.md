@@ -31,7 +31,7 @@ Using `pandas` for data aggregation and `plotly.express` for rendering, the Anal
 - **AI Feature Popularity:** A bar chart plots the total usage count of each tool — Policy Assistant, Summarizer, Translator, Knowledge Graph — so admins know exactly where users spend their time.
 - **Regional Language Utilization:** A pie chart breaks down which of the seven supported NLLB languages appeared most in user sessions, quantifying the platform's accessibility impact across different demographics.
 
-![image alt](url)
+![image alt](https://github.com/Arjun-L-Nair/Infosys_Springboard_PolicyNav_Public-_Policy_Navigation_Using_AI/blob/c9ea9bf22453bb449146c78d66a7732439de87db/milestone4/screenshots/Feedback%20analysis.png)
 
 ---
 
@@ -39,7 +39,7 @@ Using `pandas` for data aggregation and `plotly.express` for rendering, the Anal
 
 All user-submitted text comments — from both the general platform rating form and per-AI-tool feedback submissions — are automatically pulled and merged. The `wordcloud` library renders a visual sentiment map over a dark background, letting admins spot recurring themes, popular features, and friction points without manually reading individual rows. The raw feedback records are displayed in full below the cloud, split by feedback type.
 
-![image alt](url)
+![image alt](https://github.com/Arjun-L-Nair/Infosys_Springboard_PolicyNav_Public-_Policy_Navigation_Using_AI/blob/c9ea9bf22453bb449146c78d66a7732439de87db/milestone4/screenshots/Activity%20logs.png)
 
 ---
 
@@ -47,7 +47,7 @@ All user-submitted text comments — from both the general platform rating form 
 
 For offline reporting and compliance, three one-click `.csv` download buttons are available. Each button runs a `pandas` SQL query and streams the file directly to the admin's machine — covering the full user directory (with roles and block status), the complete activity log, and the granular AI tool performance dataset.
 
-![image alt](url)
+![image alt](https://github.com/Arjun-L-Nair/Infosys_Springboard_PolicyNav_Public-_Policy_Navigation_Using_AI/blob/c9ea9bf22453bb449146c78d66a7732439de87db/milestone4/screenshots/data%20exports.png)
 
 ---
 
@@ -60,7 +60,7 @@ Standard users now have a dedicated settings portal split across two tabs: one f
 - **Email Update:** The workflow requires the user to first confirm their current password, then sends a 6-digit OTP to the newly requested address. Only after successful OTP verification is the email swapped — and the update cascades across all relational tables so no history or feedback record is orphaned. The user is automatically logged out to force a clean re-authentication.
 - **Password Change:** Requires the current password as verification. A live inline validator checks four criteria as the user types — minimum length, uppercase presence, numeric character, and special character — using colour-coded indicators. Once the new password is saved, the session is wiped and the user is redirected to the login screen.
 
-![image alt](url)
+![image alt](https://github.com/Arjun-L-Nair/Infosys_Springboard_PolicyNav_Public-_Policy_Navigation_Using_AI/blob/c9ea9bf22453bb449146c78d66a7732439de87db/milestone4/screenshots/user%20profile%201.png)
 
 ---
 
@@ -68,7 +68,7 @@ Standard users now have a dedicated settings portal split across two tabs: one f
 
 Users can upload a custom profile photo (PNG or JPG, capped at 5MB) without needing any external cloud storage integration. The image is read as bytes, encoded into a Base64 string, and stored directly in the SQLite `users` table. On the next render, the string is decoded and injected into the sidebar as a circular `<img>` element, instantly replacing the default placeholder. The 5MB cap is enforced on the backend before encoding begins.
 
-![image alt](url)
+![image alt](https://github.com/Arjun-L-Nair/Infosys_Springboard_PolicyNav_Public-_Policy_Navigation_Using_AI/blob/c9ea9bf22453bb449146c78d66a7732439de87db/milestone4/screenshots/user%20profile%202.png)
 
 ---
 
@@ -115,24 +115,24 @@ The FAISS vector index, serialized chunks, and SQLite database are all persisted
 
 ## Team Contributions
 
-This platform was built collaboratively by a team of five as part of the Infosys Springboard AI Internship Program.
+This platform was built collaboratively as part of the Infosys Springboard Internship. Below is the breakdown of responsibilities and contributions for Milestone 4:
 
 **Mainuddeen**
 - Focus: Admin Dashboard Architecture & User Management
-- Built the RBAC system, account locking and unlocking logic, and the cascading soft-delete workflow for the Admin Command Center.
+- Led the development of the Admin Command Center. Engineered the Role-Based Access Control (RBAC), implemented the soft-delete data anonymization logic, and built the account locking/unlocking mechanisms for user control.
 
 **Srideepalakshmi**
 - Focus: Admin Analytics & Data Visualization
-- Integrated `pandas` and `plotly.express` to build the real-time feature popularity bar chart and regional language utilization pie chart.
+- Collaborated heavily on the Admin panel. Integrated `pandas` and `plotly.express` to build the real-time interactive charts tracking AI feature popularity and regional language utilization.
 
 **Arjun L Nair**
 - Focus: Admin Activity Tracking & Data Export
-- Developed the searchable, filterable Global Activity Logs tab and engineered the three one-click CSV export buttons for offline admin reporting.
+- Worked on the Admin Dashboard by developing the searchable Global Activity Logs system and engineering the 1-click `.csv` data export buttons for offline reporting.
 
 **Bhuvaneshwar Reddy Mandadapu**
 - Focus: User Security Settings
-- Built the OTP-verified email update flow using `smtplib`, wired up the forced session logout on credential change, and handled relational cascade updates.
+- Developed the user settings portal. Focused on the secure email update workflow, integrating the new OTP verification email logic and ensuring automatic session logouts for enhanced security.
 
 **Shambhavi Jha**
 - Focus: User Profile Identity & UI/UX
-- Engineered the Base64 avatar upload and storage system, implemented the live password strength validator, and refined the overall application styling and component layout.
+- Implemented the user personalization features. Engineered the secure 5MB Avatar (DP) upload system using Base64 database storage, built the live password strength validation UI, and refined application styling.
