@@ -318,7 +318,7 @@ The platform includes a dedicated admin interface for managing users, monitoring
 - Ensure secure access and data protection
 
 
-# 🚀 Key Features (Detailed Explanation)
+# 🚀 Key Features 
 
 ## 👤 User Features
 
@@ -453,7 +453,7 @@ Helps refine AI responses and improve system performance.
 
 ---
 
-## 🛡 Admin Features (Detailed)
+## 🛡 Admin Features
 
 ### 👥 User Management Dashboard
 - View all registered users
@@ -485,7 +485,7 @@ Helps refine AI responses and improve system performance.
 
 ---
 
-## 🧩 Architecture (Detailed Explanation)
+## 🧩 Architecture 
 
 The system follows a monolithic architecture where all components are integrated into a unified application.
 
@@ -521,7 +521,7 @@ Why Monolithic?
 
 ---
 
-## 🛠 Tech Stack (Detailed Justification)
+## 🛠 Tech Stack 
 
 | Layer         | Technology                 | Why Used |
 |--------------|--------------------------|---------|
@@ -537,7 +537,7 @@ Why Monolithic?
 
 ---
 
-## 🤖 Models Used (Detailed Explanation)
+## 🤖 Models Used 
 
 ### Sentence Transformers
 - Converts text into dense vector embeddings  
